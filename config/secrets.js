@@ -3,5 +3,5 @@
  */
 module.exports = {
     token : "secret",
-    mongo_connection : "mongodb://localhost:27017"
+    mongo_connection : "mongodb+srv://deepakm:peakhouruiuc@peakhour-tgklc.mongodb.net/test?retryWrites=true&w=majority"
 };

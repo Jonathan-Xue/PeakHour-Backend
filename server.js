@@ -1,10 +1,10 @@
 // Get the packages we need
 var express = require('express'),
-    router = express.Router(),
     mongoose = require('mongoose'),
     secrets = require('./config/secrets'),
     bodyParser = require('body-parser');
 
+var router = require('./routes/index.js')
 // Create our Express application
 var app = express();
 
